@@ -1,0 +1,50 @@
+﻿<Page
+    x:Class="Datamatiker_1semester.View.Tak_for_reservation"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Datamatiker_1semester.View"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <!-- 
+        OPMÆRKSOM, jeg kan ikke få billederne
+        frem, har prøvet koden "../" og "\" foran 
+        billedstien, for at komme fra root og ind
+        i Assets mappen uden held.   
+    
+    Nikolay er en sød...testestesttest TEST
+    -->
+
+    <!--dette er en test-->
+    
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"></ColumnDefinition>
+            <ColumnDefinition Width="*"></ColumnDefinition>
+            <ColumnDefinition Width="*"></ColumnDefinition>
+            <ColumnDefinition Width="*"></ColumnDefinition>
+            <ColumnDefinition Width="*"></ColumnDefinition>
+            <ColumnDefinition Width="*"></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="auto"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+        </Grid.RowDefinitions>
+
+        <StackPanel Grid.ColumnSpan="6" Grid.RowSpan="2" HorizontalAlignment="Center">
+            <TextBlock FontSize="60">Roskilde Bowling Center</TextBlock>
+            <Image Source="Assets/rbc-logo-inverse3x.png" Height="105" />
+        </StackPanel>
+
+        <StackPanel Grid.Row="2" Grid.Column="2" Grid.ColumnSpan="2" HorizontalAlignment="Center">
+            <TextBlock Text="Kære idiot, tak for din reservation af 1 bowlingbane den (indsæt dato), vi glæder os til at se dig/jer." FontSize="20" TextWrapping="Wrap" />
+        </StackPanel>
+    </Grid>
+</Page>
