@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
-    <Machine>DESKTOP-1D9AEKO</Machine>
-    <WindowsUser>Nikolaj Hansen</WindowsUser>
+    <Machine>LAPTOP-6PU1S87U</Machine>
+    <WindowsUser>Mikkel</WindowsUser>
     <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
     <TargetOsVersion>10.0</TargetOsVersion>
     <TargetOsDescription>Windows 10.0</TargetOsDescription>
@@ -10,28 +10,28 @@
     <PackageArchitecture>x86</PackageArchitecture>
     <PackageIdentityName>401a55a8-27af-41d8-83aa-8b9cd92e762d</PackageIdentityName>
     <PackageIdentityPublisher>CN=Nikolaj Hansen</PackageIdentityPublisher>
-    <IntermediateOutputPath>C:\Users\Nikolaj Hansen\Desktop\Datamatiker_1semester\Datamatiker_1semester\Datamatiker_1semester\obj\x86\Debug\</IntermediateOutputPath>
+    <IntermediateOutputPath>C:\Users\Mikkel\Source\Repos\jogjensen\RBCBookingSystem\Datamatiker_1semester\obj\x86\Debug\</IntermediateOutputPath>
     <RemoteDeploymentType></RemoteDeploymentType>
     <PackageRegistrationPath></PackageRegistrationPath>
     <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
-    <LayoutDir>C:\Users\Nikolaj Hansen\Desktop\Datamatiker_1semester\Datamatiker_1semester\Datamatiker_1semester\bin\x86\Debug\AppX</LayoutDir>
+    <LayoutDir>C:\Users\Mikkel\Source\Repos\jogjensen\RBCBookingSystem\Datamatiker_1semester\bin\x86\Debug\AppX</LayoutDir>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="C:\Users\Nikolaj Hansen\Desktop\Datamatiker_1semester\Datamatiker_1semester\Datamatiker_1semester\bin\x86\Debug\Core\AppxManifest.xml">
+    <AppXManifest Include="C:\Users\Mikkel\Source\Repos\jogjensen\RBCBookingSystem\Datamatiker_1semester\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\Users\Nikolaj Hansen\Desktop\Datamatiker_1semester\Datamatiker_1semester\Datamatiker_1semester\bin\x86\Debug\Datamatiker_1semester.exe">
+    <AppxPackagedFile Include="C:\Users\Mikkel\Source\Repos\jogjensen\RBCBookingSystem\Datamatiker_1semester\bin\x86\Debug\Datamatiker_1semester.exe">
       <PackagePath>entrypoint\Datamatiker_1semester.exe</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Nikolaj Hansen\.nuget\packages\microsoft.xaml.behaviors.uwp.managed\2.0.1\lib\uap10.0\Microsoft.Xaml.Interactions.dll">
+    <AppxPackagedFile Include="C:\Users\Mikkel\.nuget\packages\microsoft.xaml.behaviors.uwp.managed\2.0.1\lib\uap10.0\Microsoft.Xaml.Interactions.dll">
       <PackagePath>Microsoft.Xaml.Interactions.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Nikolaj Hansen\.nuget\packages\microsoft.xaml.behaviors.uwp.managed\2.0.1\lib\uap10.0\Microsoft.Xaml.Interactivity.dll">
+    <AppxPackagedFile Include="C:\Users\Mikkel\.nuget\packages\microsoft.xaml.behaviors.uwp.managed\2.0.1\lib\uap10.0\Microsoft.Xaml.Interactivity.dll">
       <PackagePath>Microsoft.Xaml.Interactivity.dll</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.netcore.universalwindowsplatform\6.2.9\runtimes\win10-x86\lib\uap10.0.15138\System.Runtime.dll">
@@ -40,85 +40,85 @@
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\bin\10.0.18362.0\XamlCompiler\Microsoft.UI.Xaml.Markup.winmd">
       <PackagePath>Microsoft.UI.Xaml.Markup.winmd</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Nikolaj Hansen\Desktop\Datamatiker_1semester\Datamatiker_1semester\Datamatiker_1semester\Assets\174855.png">
+    <AppxPackagedFile Include="C:\Users\Mikkel\Source\Repos\jogjensen\RBCBookingSystem\Datamatiker_1semester\Assets\174855.png">
       <PackagePath>Assets\174855.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Nikolaj Hansen\Desktop\Datamatiker_1semester\Datamatiker_1semester\Datamatiker_1semester\Assets\BetalingLogo.png">
+    <AppxPackagedFile Include="C:\Users\Mikkel\Source\Repos\jogjensen\RBCBookingSystem\Datamatiker_1semester\Assets\BetalingLogo.png">
       <PackagePath>Assets\BetalingLogo.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Nikolaj Hansen\Desktop\Datamatiker_1semester\Datamatiker_1semester\Datamatiker_1semester\Assets\download.png">
+    <AppxPackagedFile Include="C:\Users\Mikkel\Source\Repos\jogjensen\RBCBookingSystem\Datamatiker_1semester\Assets\download.png">
       <PackagePath>Assets\download.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Nikolaj Hansen\Desktop\Datamatiker_1semester\Datamatiker_1semester\Datamatiker_1semester\Assets\rbc-logo-inverse%403x.png">
+    <AppxPackagedFile Include="C:\Users\Mikkel\Source\Repos\jogjensen\RBCBookingSystem\Datamatiker_1semester\Assets\rbc-logo-inverse%403x.png">
       <PackagePath>Assets\rbc-logo-inverse%403x.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Nikolaj Hansen\Desktop\Datamatiker_1semester\Datamatiker_1semester\Datamatiker_1semester\Assets\snapchat-icon1.png">
+    <AppxPackagedFile Include="C:\Users\Mikkel\Source\Repos\jogjensen\RBCBookingSystem\Datamatiker_1semester\Assets\snapchat-icon1.png">
       <PackagePath>Assets\snapchat-icon1.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Nikolaj Hansen\Desktop\Datamatiker_1semester\Datamatiker_1semester\Datamatiker_1semester\Assets\LockScreenLogo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Mikkel\Source\Repos\jogjensen\RBCBookingSystem\Datamatiker_1semester\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Nikolaj Hansen\Desktop\Datamatiker_1semester\Datamatiker_1semester\Datamatiker_1semester\Assets\SplashScreen.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Mikkel\Source\Repos\jogjensen\RBCBookingSystem\Datamatiker_1semester\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Nikolaj Hansen\Desktop\Datamatiker_1semester\Datamatiker_1semester\Datamatiker_1semester\Assets\Square150x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Mikkel\Source\Repos\jogjensen\RBCBookingSystem\Datamatiker_1semester\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Nikolaj Hansen\Desktop\Datamatiker_1semester\Datamatiker_1semester\Datamatiker_1semester\Assets\Square44x44Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Mikkel\Source\Repos\jogjensen\RBCBookingSystem\Datamatiker_1semester\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Nikolaj Hansen\Desktop\Datamatiker_1semester\Datamatiker_1semester\Datamatiker_1semester\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+    <AppxPackagedFile Include="C:\Users\Mikkel\Source\Repos\jogjensen\RBCBookingSystem\Datamatiker_1semester\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Nikolaj Hansen\Desktop\Datamatiker_1semester\Datamatiker_1semester\Datamatiker_1semester\Assets\StoreLogo.png">
+    <AppxPackagedFile Include="C:\Users\Mikkel\Source\Repos\jogjensen\RBCBookingSystem\Datamatiker_1semester\Assets\StoreLogo.png">
       <PackagePath>Assets\StoreLogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Nikolaj Hansen\Desktop\Datamatiker_1semester\Datamatiker_1semester\Datamatiker_1semester\Assets\Wide310x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Mikkel\Source\Repos\jogjensen\RBCBookingSystem\Datamatiker_1semester\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Nikolaj Hansen\Desktop\Datamatiker_1semester\Datamatiker_1semester\Datamatiker_1semester\Properties\Default.rd.xml">
+    <AppxPackagedFile Include="C:\Users\Mikkel\Source\Repos\jogjensen\RBCBookingSystem\Datamatiker_1semester\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Nikolaj Hansen\Desktop\Datamatiker_1semester\Datamatiker_1semester\Datamatiker_1semester\bin\x86\Debug\Datamatiker_1semester.xr.xml">
+    <AppxPackagedFile Include="C:\Users\Mikkel\Source\Repos\jogjensen\RBCBookingSystem\Datamatiker_1semester\bin\x86\Debug\Datamatiker_1semester.xr.xml">
       <PackagePath>Datamatiker_1semester.xr.xml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Nikolaj Hansen\Desktop\Datamatiker_1semester\Datamatiker_1semester\Datamatiker_1semester\bin\x86\Debug\App.xbf">
+    <AppxPackagedFile Include="C:\Users\Mikkel\Source\Repos\jogjensen\RBCBookingSystem\Datamatiker_1semester\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Nikolaj Hansen\Desktop\Datamatiker_1semester\Datamatiker_1semester\Datamatiker_1semester\bin\x86\Debug\MainPage.xbf">
+    <AppxPackagedFile Include="C:\Users\Mikkel\Source\Repos\jogjensen\RBCBookingSystem\Datamatiker_1semester\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Nikolaj Hansen\Desktop\Datamatiker_1semester\Datamatiker_1semester\Datamatiker_1semester\bin\x86\Debug\View\Betaling.xbf">
+    <AppxPackagedFile Include="C:\Users\Mikkel\Source\Repos\jogjensen\RBCBookingSystem\Datamatiker_1semester\bin\x86\Debug\View\Betaling.xbf">
       <PackagePath>View\Betaling.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Nikolaj Hansen\Desktop\Datamatiker_1semester\Datamatiker_1semester\Datamatiker_1semester\bin\x86\Debug\View\BetalingsMuligheder.xbf">
+    <AppxPackagedFile Include="C:\Users\Mikkel\Source\Repos\jogjensen\RBCBookingSystem\Datamatiker_1semester\bin\x86\Debug\View\BetalingsMuligheder.xbf">
       <PackagePath>View\BetalingsMuligheder.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Nikolaj Hansen\Desktop\Datamatiker_1semester\Datamatiker_1semester\Datamatiker_1semester\bin\x86\Debug\View\Kalender.xbf">
+    <AppxPackagedFile Include="C:\Users\Mikkel\Source\Repos\jogjensen\RBCBookingSystem\Datamatiker_1semester\bin\x86\Debug\View\Kalender.xbf">
       <PackagePath>View\Kalender.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Nikolaj Hansen\Desktop\Datamatiker_1semester\Datamatiker_1semester\Datamatiker_1semester\bin\x86\Debug\View\Oplysninger_og_oversigt.xbf">
+    <AppxPackagedFile Include="C:\Users\Mikkel\Source\Repos\jogjensen\RBCBookingSystem\Datamatiker_1semester\bin\x86\Debug\View\Oplysninger_og_oversigt.xbf">
       <PackagePath>View\Oplysninger_og_oversigt.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Nikolaj Hansen\Desktop\Datamatiker_1semester\Datamatiker_1semester\Datamatiker_1semester\bin\x86\Debug\View\Tak_for_reservation.xbf">
+    <AppxPackagedFile Include="C:\Users\Mikkel\Source\Repos\jogjensen\RBCBookingSystem\Datamatiker_1semester\bin\x86\Debug\View\Tak_for_reservation.xbf">
       <PackagePath>View\Tak_for_reservation.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Nikolaj Hansen\Desktop\Datamatiker_1semester\Datamatiker_1semester\Datamatiker_1semester\bin\x86\Debug\View\Tilkøb.xbf">
+    <AppxPackagedFile Include="C:\Users\Mikkel\Source\Repos\jogjensen\RBCBookingSystem\Datamatiker_1semester\bin\x86\Debug\View\Tilkøb.xbf">
       <PackagePath>View\Tilkøb.xbf</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.18362.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Nikolaj Hansen\Desktop\Datamatiker_1semester\Datamatiker_1semester\Datamatiker_1semester\bin\x86\Debug\resources.pri">
+    <AppxPackagedFile Include="C:\Users\Mikkel\Source\Repos\jogjensen\RBCBookingSystem\Datamatiker_1semester\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Nikolaj Hansen\Desktop\Datamatiker_1semester\Datamatiker_1semester\Datamatiker_1semester\bin\x86\Debug\Core\Datamatiker_1semester.exe">
+    <AppxPackagedFile Include="C:\Users\Mikkel\Source\Repos\jogjensen\RBCBookingSystem\Datamatiker_1semester\bin\x86\Debug\Core\Datamatiker_1semester.exe">
       <PackagePath>Datamatiker_1semester.exe</PackagePath>
     </AppxPackagedFile>
   </ItemGroup>
