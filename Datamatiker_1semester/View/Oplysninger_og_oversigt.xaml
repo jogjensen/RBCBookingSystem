@@ -39,13 +39,13 @@
 
         <!--Personlige oplysninger-->
         <TextBlock Grid.Row="2" Grid.Column="1" Text="Indtast personlige oplysninger" FontSize="15"/>
-        <TextBox Grid.Row="3" Grid.Column="1" PlaceholderText="Indtast navn"/>
-        <TextBox Grid.Row="4" Grid.Column="1" PlaceholderText="Indtast Telefonnummer"/>
-        <TextBox Grid.Row="5" Grid.Column="1" PlaceholderText="Adresse"/>
-        <TextBox Grid.Row="6" Grid.Column="1" PlaceholderText="By navn"/>
-        <TextBox Grid.Row="7" Grid.Column="1" PlaceholderText="Postnummer"/>
-        <TextBox Grid.Row="8" Grid.Column="1" PlaceholderText="Email"/>
-        <TextBox Grid.Row="9" Grid.Column="1" PlaceholderText="Brækræft email"/>
+        <TextBox Grid.Row="3" Grid.Column="1" PlaceholderText="Indtast navn" Text="{Binding KundeInformation.Navn}"/>
+        <TextBox Grid.Row="4" Grid.Column="1" PlaceholderText="Indtast Telefonnummer" Text="{Binding KundeInformation.Tlfnummer}"/>
+        <TextBox Grid.Row="5" Grid.Column="1" PlaceholderText="Adresse" Text="{Binding KundeInformation.Adr}"/>
+        <TextBox Grid.Row="6" Grid.Column="1" PlaceholderText="By navn" Text="{Binding KundeInformation.Bynavn}" />
+        <TextBox Grid.Row="7" Grid.Column="1" PlaceholderText="Postnummer" Text="{Binding KundeInformation.Postnummer}" />
+        <TextBox Grid.Row="8" Grid.Column="1" PlaceholderText="Email" Text="{Binding KundeInformation.Email}" />
+        <TextBox Grid.Row="9" Grid.Column="1" PlaceholderText="Brækræft email" Text="{Binding KundeInformation.Email2}" />
 
         <!--Oversigt-->
         <TextBlock Grid.Row="2" Grid.Column="3" Text="Oversigt" TextAlignment="Center" FontSize="30"/>

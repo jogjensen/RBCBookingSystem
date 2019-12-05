@@ -1,24 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Nikolaj Hansen\\Desktop\\Datamatiker_1semester\\Datamatiker_1semester\\Datamatiker_1semester\\Datamatiker_1semester.csproj": {}
+    "C:\\Users\\jogje\\source\\repos\\jogjensen\\RBCBookingSystem\\Datamatiker_1semester\\Datamatiker_1semester.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Nikolaj Hansen\\Desktop\\Datamatiker_1semester\\Datamatiker_1semester\\Datamatiker_1semester\\Datamatiker_1semester.csproj": {
+    "C:\\Users\\jogje\\source\\repos\\jogjensen\\RBCBookingSystem\\Datamatiker_1semester\\Datamatiker_1semester.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Nikolaj Hansen\\Desktop\\Datamatiker_1semester\\Datamatiker_1semester\\Datamatiker_1semester\\Datamatiker_1semester.csproj",
+        "projectUniqueName": "C:\\Users\\jogje\\source\\repos\\jogjensen\\RBCBookingSystem\\Datamatiker_1semester\\Datamatiker_1semester.csproj",
         "projectName": "Datamatiker_1semester",
-        "projectPath": "C:\\Users\\Nikolaj Hansen\\Desktop\\Datamatiker_1semester\\Datamatiker_1semester\\Datamatiker_1semester\\Datamatiker_1semester.csproj",
-        "packagesPath": "C:\\Users\\Nikolaj Hansen\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Nikolaj Hansen\\Desktop\\Datamatiker_1semester\\Datamatiker_1semester\\Datamatiker_1semester\\obj\\",
+        "projectPath": "C:\\Users\\jogje\\source\\repos\\jogjensen\\RBCBookingSystem\\Datamatiker_1semester\\Datamatiker_1semester.csproj",
+        "packagesPath": "C:\\Users\\jogje\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\jogje\\source\\repos\\jogjensen\\RBCBookingSystem\\Datamatiker_1semester\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\Nikolaj Hansen\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\jogje\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
