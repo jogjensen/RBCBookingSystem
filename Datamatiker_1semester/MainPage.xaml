@@ -10,7 +10,7 @@
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
     <Grid>
-
+<!--Dette er en test fra Niqulay-->
         <!-- Grid system til alt indhold -->
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="*"/>
