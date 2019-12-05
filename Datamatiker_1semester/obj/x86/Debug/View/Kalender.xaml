@@ -34,7 +34,7 @@
         <!-- Overskrift + Logo -->
         <StackPanel Grid.ColumnSpan="6" Grid.RowSpan="2" HorizontalAlignment="Center">
             <TextBlock FontSize="60">Roskilde Bowling Center</TextBlock>
-            <Image Source="Assets/rbc-logo-inverse@3x.png" Height="130"></Image>
+            <Image Source="../Assets/rbc-logo-inverse@3x.png" Height="130"></Image>
         </StackPanel>
 
         <!-- Menu -->
@@ -54,9 +54,9 @@
             <Button Background="White" FontSize="20" Content="Kontakt"></Button>
             <TextBlock FontSize="20" Text="|" VerticalAlignment="Center"></TextBlock>
 
-            <Image Source="Assets/174855.png" Height="20" VerticalAlignment="Center" Margin="5,15"></Image>
-            <Image Source="Assets/download.png" Height="20" VerticalAlignment="Center" Margin="5,15"></Image>
-            <Image Source="Assets/snapchat-icon1.png" Height="20" VerticalAlignment="Center" Margin="5,15"></Image>
+            <Image Source="../Assets/174855.png" Height="20" VerticalAlignment="Center" Margin="5,15"></Image>
+            <Image Source="../Assets/download.png" Height="20" VerticalAlignment="Center" Margin="5,15"></Image>
+            <Image Source="../Assets/snapchat-icon1.png" Height="20" VerticalAlignment="Center" Margin="5,15"></Image>
         </StackPanel>
 
         <!-- Sidens indhold -->
