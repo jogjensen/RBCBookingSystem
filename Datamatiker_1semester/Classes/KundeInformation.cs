@@ -37,12 +37,12 @@ namespace Datamatiker_1semester.Classes
 
         }
 
-        public override string Tostring()
-        {
-            return $"{nameof(Navn)}:{Navn}, {nameof(Tlfnummer)}:{Tlfnummer},{nameof(Adr)}:{Adr},{nameof(Bynavn)}:{Bynavn}, {nameof(Postnummer)}:{Postnummer},{nameof(Email)}:{Email},{nameof(Email2)}:{Email2}";
+        //public override string Tostring()
+        //{
+        //    return $"{nameof(Navn)}:{Navn}, {nameof(Tlfnummer)}:{Tlfnummer},{nameof(Adr)}:{Adr},{nameof(Bynavn)}:{Bynavn}, {nameof(Postnummer)}:{Postnummer},{nameof(Email)}:{Email},{nameof(Email2)}:{Email2}";
 
 
-        }
+        //}
 
         public String Navn
         {

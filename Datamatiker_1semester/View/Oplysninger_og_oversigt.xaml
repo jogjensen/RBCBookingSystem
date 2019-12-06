@@ -5,10 +5,14 @@
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     xmlns:Custom="using:Microsoft.Xaml.Interactivity" xmlns:Custom1="using:Microsoft.Xaml.Interactions.Core"
+    xmlns:viewmodel="using:Datamatiker_1semester.Viewmodel"
     x:Class="Datamatiker_1semester.View.Oplysninger_og_oversigt"
     mc:Ignorable="d"
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
+    <Page.DataContext>
+        <viewmodel:OplysningsVM></viewmodel:OplysningsVM>
+    </Page.DataContext>
 
     <Grid>
         <Grid.RowDefinitions>
@@ -39,13 +43,16 @@
 
         <!--Personlige oplysninger-->
         <TextBlock Grid.Row="2" Grid.Column="1" Text="Indtast personlige oplysninger" FontSize="15"/>
-        <TextBox Grid.Row="3" Grid.Column="1" PlaceholderText="Indtast navn" Text="{Binding KundeInformation.Navn}"/>
-        <TextBox Grid.Row="4" Grid.Column="1" PlaceholderText="Indtast Telefonnummer" Text="{Binding KundeInformation.Tlfnummer}"/>
-        <TextBox Grid.Row="5" Grid.Column="1" PlaceholderText="Adresse" Text="{Binding KundeInformation.Adr}"/>
-        <TextBox Grid.Row="6" Grid.Column="1" PlaceholderText="By navn" Text="{Binding KundeInformation.Bynavn}" />
-        <TextBox Grid.Row="7" Grid.Column="1" PlaceholderText="Postnummer" Text="{Binding KundeInformation.Postnummer}" />
-        <TextBox Grid.Row="8" Grid.Column="1" PlaceholderText="Email" Text="{Binding KundeInformation.Email}" />
-        <TextBox Grid.Row="9" Grid.Column="1" PlaceholderText="Brækræft email" Text="{Binding KundeInformation.Email2}" />
+        <TextBox Grid.Row="3" Grid.Column="1" PlaceholderText="Indtast navn" Text="{Binding Kunde.Navn,Mode=TwoWay}"/>
+        <TextBox Grid.Row="4" Grid.Column="1" PlaceholderText="Indtast Telefonnummer" Text="{Binding Kunde.Tlfnummer,Mode=TwoWay}"/>
+        <TextBox Grid.Row="5" Grid.Column="1" PlaceholderText="Adresse" Text="{Binding Kunde.Adr,Mode=TwoWay}"/>
+        <TextBox Grid.Row="6" Grid.Column="1" PlaceholderText="By navn" Text="{Binding Kunde.Bynavn,Mode=TwoWay}" />
+        <TextBox Grid.Row="7" Grid.Column="1" PlaceholderText="Postnummer" Text="{Binding Kunde.Postnummer,Mode=TwoWay}" />
+        <TextBox Grid.Row="8" Grid.Column="1" PlaceholderText="Email" Text="{Binding Kunde.Email,Mode=TwoWay}" />
+        <TextBox Grid.Row="9" Grid.Column="1" PlaceholderText="Brækræft email" Text="{Binding Kunde.Email2,Mode=TwoWay}" />
+
+        <!--Forsøg med Gem knap-->
+        <Button Grid.Row="10" Grid.Column="2" Content="Gem"  Command="{Binding GemKundeCommand}"></Button>
 
         <!--Oversigt-->
         <TextBlock Grid.Row="2" Grid.Column="3" Text="Oversigt" TextAlignment="Center" FontSize="30"/>

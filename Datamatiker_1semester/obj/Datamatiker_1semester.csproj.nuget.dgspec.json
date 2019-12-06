@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\jogje\\source\\repos\\jogjensen\\RBCBookingSystem\\Datamatiker_1semester\\Datamatiker_1semester.csproj": {}
+    "C:\\Users\\jogje\\Source\\Repos\\jogjensen\\RBCBookingSystem\\Datamatiker_1semester\\Datamatiker_1semester.csproj": {}
   },
   "projects": {
-    "C:\\Users\\jogje\\source\\repos\\jogjensen\\RBCBookingSystem\\Datamatiker_1semester\\Datamatiker_1semester.csproj": {
+    "C:\\Users\\jogje\\Source\\Repos\\jogjensen\\RBCBookingSystem\\Datamatiker_1semester\\Datamatiker_1semester.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\jogje\\source\\repos\\jogjensen\\RBCBookingSystem\\Datamatiker_1semester\\Datamatiker_1semester.csproj",
+        "projectUniqueName": "C:\\Users\\jogje\\Source\\Repos\\jogjensen\\RBCBookingSystem\\Datamatiker_1semester\\Datamatiker_1semester.csproj",
         "projectName": "Datamatiker_1semester",
-        "projectPath": "C:\\Users\\jogje\\source\\repos\\jogjensen\\RBCBookingSystem\\Datamatiker_1semester\\Datamatiker_1semester.csproj",
+        "projectPath": "C:\\Users\\jogje\\Source\\Repos\\jogjensen\\RBCBookingSystem\\Datamatiker_1semester\\Datamatiker_1semester.csproj",
         "packagesPath": "C:\\Users\\jogje\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\jogje\\source\\repos\\jogjensen\\RBCBookingSystem\\Datamatiker_1semester\\obj\\",
+        "outputPath": "C:\\Users\\jogje\\Source\\Repos\\jogjensen\\RBCBookingSystem\\Datamatiker_1semester\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [
@@ -44,6 +44,10 @@
             "Microsoft.Xaml.Behaviors.Uwp.Managed": {
               "target": "Package",
               "version": "[2.0.1, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.3, )"
             }
           },
           "imports": [
