@@ -17,7 +17,7 @@ namespace Datamatiker_1semester.Classes
         private string _email;
         private string _email2;
 
-      
+      //he
 
         public KundeInformation(string navn,int tlfnummer,string adr,string bynavn,int postnummer,string email,string email2)
         {
