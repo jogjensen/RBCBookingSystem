@@ -8412,24 +8412,27 @@
   },
   "packageFolders": {
     "C:\\Users\\jogje\\.nuget\\packages\\": {},
+    "C:\\Microsoft\\Xamarin\\NuGet\\": {},
     "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\jogje\\Source\\Repos\\jogjensen\\RBCBookingSystem\\Datamatiker_1semester\\Datamatiker_1semester.csproj",
+      "projectUniqueName": "C:\\Users\\jogje\\source\\repos\\jogjensen\\RBCBookingSystem\\Datamatiker_1semester\\Datamatiker_1semester.csproj",
       "projectName": "Datamatiker_1semester",
-      "projectPath": "C:\\Users\\jogje\\Source\\Repos\\jogjensen\\RBCBookingSystem\\Datamatiker_1semester\\Datamatiker_1semester.csproj",
+      "projectPath": "C:\\Users\\jogje\\source\\repos\\jogjensen\\RBCBookingSystem\\Datamatiker_1semester\\Datamatiker_1semester.csproj",
       "packagesPath": "C:\\Users\\jogje\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\jogje\\Source\\Repos\\jogjensen\\RBCBookingSystem\\Datamatiker_1semester\\obj\\",
+      "outputPath": "C:\\Users\\jogje\\source\\repos\\jogjensen\\RBCBookingSystem\\Datamatiker_1semester\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
+        "C:\\Microsoft\\Xamarin\\NuGet\\",
         "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\"
       ],
       "configFilePaths": [
         "C:\\Users\\jogje\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
       "originalTargetFrameworks": [
         "uap10.0.17763"
