@@ -7,7 +7,7 @@ using System.Windows.Input;
 
 namespace Datamatiker_1semester.common
 {
-    class RelayCommand:ICommand
+    public class RelayCommand:ICommand
     {
         private Action _metode;
 

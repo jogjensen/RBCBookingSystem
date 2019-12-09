@@ -8,27 +8,30 @@ using System.Threading.Tasks;
 using Datamatiker_1semester.Annotations;
 using Datamatiker_1semester.Classes;
 using Datamatiker_1semester.common;
+using Datamatiker_1semester.Persistens;
 using Newtonsoft.Json;
 
 namespace Datamatiker_1semester.Viewmodel
 {
-    class OplysningsVM:INotifyPropertyChanged
+    public class OplysningsVM:INotifyPropertyChanged
     {
         private RelayCommand _gemKundeCommand;
         private KundeInformation _kunde;
+        private Persistency _gem;
 
 
         public OplysningsVM()
         {
-            _gemKundeCommand = new RelayCommand(GemKunde);
+            _gem = new Persistency();
+            _gemKundeCommand = new RelayCommand(Gem);
             _kunde = new KundeInformation();
         }
 
-        private void GemKunde()
+        private void Gem()
         {
-            // laver json + gemmer i fil
-            string str = JsonConvert.SerializeObject(_kunde);
+            _gem.Gemkunde(_kunde);
         }
+
 
         /*
          * Properties

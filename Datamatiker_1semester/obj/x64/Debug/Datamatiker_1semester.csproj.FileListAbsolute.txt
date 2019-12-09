@@ -78,3 +78,4 @@ C:\Users\jogje\Source\Repos\jogjensen\RBCBookingSystem\Datamatiker_1semester\obj
 C:\Users\jogje\Source\Repos\jogjensen\RBCBookingSystem\Datamatiker_1semester\obj\x64\Debug\ProjectArchitectures.txt
 C:\Users\jogje\Source\Repos\jogjensen\RBCBookingSystem\Datamatiker_1semester\obj\x64\Debug\.winmd_cache\$Microsoft.UI.Xaml.Markup.winmd_636885238160000000.json
 C:\Users\jogje\Source\Repos\jogjensen\RBCBookingSystem\Datamatiker_1semester\bin\x64\Debug\Newtonsoft.Json.dll
+C:\Users\jogje\Source\Repos\jogjensen\RBCBookingSystem\Datamatiker_1semester\obj\x64\Debug\Datamatiker_1semester.csprojAssemblyReference.cache

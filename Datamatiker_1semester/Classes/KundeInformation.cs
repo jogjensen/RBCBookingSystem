@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Datamatiker_1semester.Classes
 {
-    class KundeInformation
+    public class KundeInformation
     {
        
         private string _navn;
