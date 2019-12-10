@@ -1,0 +1,59 @@
+﻿<Page
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Datamatiker_1semester.View"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:Custom="using:Microsoft.Xaml.Interactivity" xmlns:Custom1="using:Microsoft.Xaml.Interactions.Core"
+    x:Class="Datamatiker_1semester.View.Betaling"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    
+    
+    
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+
+            <StackPanel Grid.Row="0" Grid.RowSpan="2" HorizontalAlignment="Center">
+                <TextBlock FontSize="60"><Run Text="Roskilde Bowling Center"/></TextBlock>
+                <Image Source="../Assets/rbc-logo-inverse@3x.png" Height="105" />
+            </StackPanel>
+
+        <StackPanel Grid.Row="2" Height="250" Width="300">
+            <TextBox PlaceholderText="Navn" Grid.Row="0" FontSize="20"/>
+            <TextBox PlaceholderText="Kortnummer" Grid.Row="1" FontSize="20"/>
+            <StackPanel Grid.Row="2" Orientation="Horizontal">
+                <TextBox PlaceholderText="Måned" FontSize="20"/>
+                <TextBox PlaceholderText="År" FontSize="20"/>
+            </StackPanel>
+            <TextBox PlaceholderText="CVC" Grid.Row="3" Width="100" HorizontalAlignment="Left" FontSize="20"/>
+            <StackPanel Grid.Row="4" Orientation="Horizontal">
+                <Button HorizontalAlignment="Left" Content="Tilbage" FontSize="20">
+                    <Custom:Interaction.Behaviors>
+                        <Custom1:EventTriggerBehavior EventName="Click">
+                            <Custom1:NavigateToPageAction TargetPage="Datamatiker_1semester.View.BetalingsMuligheder"/>
+                        </Custom1:EventTriggerBehavior>
+                    </Custom:Interaction.Behaviors>
+                </Button>
+                <Button Content="Betaling" HorizontalAlignment="Right" FontSize="20">
+
+                    <Custom:Interaction.Behaviors>
+                        <Custom1:EventTriggerBehavior EventName="Click">
+                            <Custom1:NavigateToPageAction TargetPage="Datamatiker_1semester.View.Tak_for_reservation"/>
+                        </Custom1:EventTriggerBehavior>
+                    </Custom:Interaction.Behaviors>
+
+                </Button>
+            </StackPanel>
+        </StackPanel>
+    </Grid>
+
+    
+</Page>
