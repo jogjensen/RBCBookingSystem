@@ -15,39 +15,44 @@
 
         </Style>
         <Style x:Key="StackP" TargetType="StackPanel">
-            <Setter Property="Margin" Value="100,10,100,10" />
+            <Setter Property="VerticalAlignment" Value="Bottom" />
             <Setter Property="BorderThickness" Value="3"/>
             <Setter Property="BorderBrush" Value="Black"/>
-            <Setter Property="Height" Value="auto"/>
-            <Setter Property="Spacing" Value="10"/>
+            <Setter Property="Spacing" Value="0"/>
+            <Setter Property="Width" Value="400"/>
+            <Setter Property="Margin" Value="0,0,0,20"/>
+
         </Style>
         <Style x:Key="SPtext" TargetType="TextBlock">
-            <Setter Property="FontSize" Value="40"/>
+            <Setter Property="FontSize" Value="30"/>
             <Setter Property="Margin" Value="20,0"/>
         </Style>
         <Style x:Key="SPimage" TargetType="Image">
-            <Setter Property="Height" Value="100"/>
-            <Setter Property="Width" Value="100"/>
             <Setter Property="HorizontalAlignment" Value="Center"/>
         </Style>
         <Style x:Key="Title" TargetType="TextBlock">
             <Setter Property="FontSize" Value="30"/>
             <Setter Property="TextAlignment" Value="Center"/>
-            <Setter Property="Margin" Value="40"/>
-        </Style>
-        <Style TargetType="ListView">
-            <Setter Property="BorderBrush" Value="Black"/>
-            <Setter Property="BorderThickness" Value="0,5"/>
-            <Setter Property="Margin" Value="30"/>
+            
+
+
         </Style>
         <Style TargetType="Button">
             <Setter Property="FontSize" Value="30"/>
+            <Setter Property="Margin" Value="20,20"/>
         </Style>
         <Style TargetType="ComboBox">
             <Setter Property="FontSize" Value="20"/>
-            <Setter Property="Width" Value="200"/>
+            <Setter Property="Width" Value="150"/>
             <Setter Property="Margin" Value="20"/>
             <Setter Property="PlaceholderText" Value="Vælg Antal"/>
+            
+        </Style>
+        <Style TargetType="StackPanel">
+            <Setter Property="BorderBrush" Value="Black"/>
+            <Setter Property="HorizontalAlignment" Value="Center"/>
+            <Setter Property="Orientation" Value="Horizontal"/>
+            <Setter Property="Width" Value="auto"/>
         </Style>
     </Page.Resources>
 
@@ -61,14 +66,25 @@
             <ColumnDefinition Width="*"/>
         </Grid.ColumnDefinitions>
 
-        <Grid Grid.Column="0">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="3*"/>
+        </Grid.RowDefinitions>
+
+        <StackPanel Grid.Row="0" Grid.ColumnSpan="2" HorizontalAlignment="Center" Orientation="Vertical">
+            <TextBlock FontSize="60"><Run Text="Roskilde Bowling Center"/></TextBlock>
+            <Image Source="../Assets/rbc-logo-inverse@3x.png" Height="105" />
+        </StackPanel>
+        <Grid Grid.Column="0" Grid.Row="1">
             <Grid.RowDefinitions>
                 <RowDefinition Height="*"/>
                 <RowDefinition Height="*"/>
                 <RowDefinition Height="*"/>
                 <RowDefinition Height="*"/>
             </Grid.RowDefinitions>
-
+            
+            
+            
             <StackPanel Grid.Row="0" Style="{StaticResource StackP}" >
                 <Grid>
                     <Grid.RowDefinitions>
@@ -123,7 +139,7 @@
                 </Grid>
 
             </StackPanel>
-            <StackPanel Grid.Row="3" Style="{StaticResource StackP}" >
+            <StackPanel Grid.Row="4" Style="{StaticResource StackP}" >
                 <Grid>
                     <Grid.RowDefinitions>
                         <RowDefinition Height="*"/>
@@ -143,31 +159,41 @@
 
             </StackPanel>
         </Grid>
-        <Grid Grid.Column="1">
+        <Grid Grid.Column="1" Grid.Row="1">
             <Grid.RowDefinitions>
-                <RowDefinition Height="Auto"/>
                 <RowDefinition Height="*"/>
-                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="3*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
             </Grid.RowDefinitions>
-            <TextBlock Text="Du Har Valgt" Style="{StaticResource Title}"/>
-            <ListView Grid.Row="1"/>
-            <Button HorizontalAlignment="Right" Grid.Row="2" Content="Bestil og fortsæt">
-                <Custom:Interaction.Behaviors>
-                    <Custom1:EventTriggerBehavior EventName="Click">
-                        <Custom1:NavigateToPageAction TargetPage="Datamatiker_1semester.View.Oplysninger_og_oversigt"/>
-                    </Custom1:EventTriggerBehavior>
-                </Custom:Interaction.Behaviors>
+            
+            <StackPanel BorderThickness="0,0,0,2" Margin="20" Grid.Row="0" VerticalAlignment="Bottom" >
+                <TextBlock Text="Du Har Valgt" Style="{StaticResource Title}" TextAlignment="Center" Width="500"/>
+            </StackPanel>
+            <TextBlock Grid.Column="1" Grid.Row="1" FontSize="35" TextAlignment="Center">
+                1 X Kylling - 60 Kr.<LineBreak/>
+                3 X Okse - 180 Kr. <LineBreak/>
+                2 X Svin - 120 Kr. <LineBreak/>
+            </TextBlock>
 
-            </Button>
-
-
-            <Button HorizontalAlignment="Left" Grid.Row="2" Content="Tilbage">
-                <Custom:Interaction.Behaviors>
-                    <Custom1:EventTriggerBehavior EventName="Click">
-                        <Custom1:NavigateToPageAction TargetPage="Datamatiker_1semester.View.Kalender"/>
-                    </Custom1:EventTriggerBehavior>
-                </Custom:Interaction.Behaviors>
-            </Button>
+            <TextBlock Text="Total 360 Kr" Style="{StaticResource Title}" Grid.Row="2"/>
+            <StackPanel Grid.Row="3" BorderBrush="Black" BorderThickness="0,2,0,0">
+                <Button HorizontalAlignment="Right" Grid.Row="2" Content="Tilbage">
+                    <Custom:Interaction.Behaviors>
+                        <Custom1:EventTriggerBehavior EventName="Click">
+                            <Custom1:NavigateToPageAction TargetPage="Datamatiker_1semester.View.Kalender"/>
+                        </Custom1:EventTriggerBehavior>
+                    </Custom:Interaction.Behaviors>
+                </Button>
+                <Button HorizontalAlignment="Left" Grid.Row="3" Content="Oversigt og Betaling">
+                    <Custom:Interaction.Behaviors>
+                        <Custom1:EventTriggerBehavior EventName="Click">
+                            <Custom1:NavigateToPageAction TargetPage="Datamatiker_1semester.View.Oplysninger_og_oversigt"/>
+                        </Custom1:EventTriggerBehavior>
+                    </Custom:Interaction.Behaviors>
+                </Button>
+            </StackPanel>
+                
         </Grid>
 
     </Grid>

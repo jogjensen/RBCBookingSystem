@@ -25,6 +25,12 @@ namespace Datamatiker_1semester.Viewmodel
             _gem = new Persistency();
             _gemKundeCommand = new RelayCommand(Gem);
             _kunde = new KundeInformation();
+
+            // Her opretes tider
+            tider = new List<RBCBooking>();
+            tider.Add(new RBCBooking("Dummy", "Dummy"));
+
+            _selectedTider = new RBCBooking("10:45", "Dato - 5 / 12 / 2019");
         }
 
         private void Gem()
@@ -83,14 +89,14 @@ namespace Datamatiker_1semester.Viewmodel
         }
         
         // Indhold der skal vises på skærmen (XAML).
-        public MainVM()
-        {
-            // Her opretes tider
-            tider = new List<RBCBooking>();
-            tider.Add(new RBCBooking("Dummy", "Dummy"));
+        //public OplysningsVM()
+        //{
+        //    // Her opretes tider
+        //    tider = new List<RBCBooking>();
+        //    tider.Add(new RBCBooking("Dummy", "Dummy"));
 
-            _selectedTider = new RBCBooking("10:45", "Dato - 5 / 12 / 2019");
-        }
+        //    _selectedTider = new RBCBooking("10:45", "Dato - 5 / 12 / 2019");
+        //}
    
    
     /*

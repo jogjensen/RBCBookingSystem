@@ -7,12 +7,12 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     xmlns:interactivity="using:Microsoft.Xaml.Interactivity"
     xmlns:core="using:Microsoft.Xaml.Interactions.Core"
-    xmlns:viewModel="using:Datamatiker_1semester.ViewModel"
+    xmlns:Viewmodel="using:Datamatiker_1semester.Viewmodel"
     mc:Ignorable="d"
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
     <Page.DataContext>
-        <viewModel:MainVM/>
+        <Viewmodel:OplysningsVM/>
     </Page.DataContext>
 
     <Grid>

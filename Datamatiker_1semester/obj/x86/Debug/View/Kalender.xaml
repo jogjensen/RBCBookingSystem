@@ -7,8 +7,13 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     xmlns:interactivity="using:Microsoft.Xaml.Interactivity"
     xmlns:core="using:Microsoft.Xaml.Interactions.Core"
+    xmlns:Viewmodel="using:Datamatiker_1semester.Viewmodel"
     mc:Ignorable="d"
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Page.DataContext>
+        <Viewmodel:OplysningsVM/>
+    </Page.DataContext>
 
     <Grid>
         <!-- Grid system til alt indhold -->
@@ -62,7 +67,7 @@
         <!-- Sidens indhold -->
 
         <StackPanel Grid.Row="3" Grid.Column="2" Grid.ColumnSpan="2" HorizontalAlignment="Center" VerticalAlignment="Center">
-            <TextBlock FontSize="30" FontWeight="Bold" Text="Dato"></TextBlock>
+            <TextBlock FontSize="30" FontWeight="Bold" Text="{Binding SelectedTider.Dato}"></TextBlock>
         </StackPanel>
 
         <StackPanel Grid.Row="4" Grid.Column="1">
@@ -105,12 +110,17 @@
             <!-- Tider -->
 
             <!-- bane 1 -->
-            <StackPanel Grid.Row="1" Grid.Column="0" HorizontalAlignment="Center" BorderBrush="Black" BorderThickness="1" VerticalAlignment="Center" >
-                <Button Height="50" Background="GreenYellow" Content="10:45" MinWidth="100"></Button>
+
+            <!-- Farveskift ( x:Name="ButtonBase" ) skal sammenlignes med knappen nedenunder -->
+            <StackPanel Grid.Row="1" Grid.Column="0" HorizontalAlignment="Right" BorderBrush="Black" BorderThickness="1" VerticalAlignment="Center" Grid.ColumnSpan="2" Margin="0,0,101,0" >
+                <ToggleButton x:ConnectionId='2' Height="50" Background="GreenYellow" Content="{Binding SelectedTider.Tid}" MinWidth="100"                                x:Name="ToggleButton"></ToggleButton>
             </StackPanel>
+
+            <!-- farskiftes sammenlignes med denne knap ( Button x:Name="Button" ) -->
             <StackPanel Grid.Row="2" Grid.Column="0" HorizontalAlignment="Center" BorderBrush="Black" BorderThickness="1" VerticalAlignment="Center">
                 <Button Height="50" Background="GreenYellow" Content="11:45" MinWidth="100"></Button>
             </StackPanel>
+
             <StackPanel Grid.Row="3" Grid.Column="0" HorizontalAlignment="Center" BorderBrush="Black" BorderThickness="1" VerticalAlignment="Center">
                 <Button Height="50" Background="Red" Content="12:45" MinWidth="100"></Button>
             </StackPanel>
@@ -184,6 +194,22 @@
                 </interactivity:Interaction.Behaviors>
             </Button>
         </StackPanel>
+
+
+        <!-- Test med tider (i liste) --><!--
+        <StackPanel Grid.Row="4" Grid.Column="4" Grid.ColumnSpan="2">
+
+            <TextBlock Text="Listview" FontSize="25"></TextBlock>
+
+            <ListView ItemsSource="{Binding Tider}" 
+                      SelectedItem="{Binding SelectedTider}"
+                      Grid.Column="1" Grid.Row="2" Margin="10,10">
+            </ListView>
+        </StackPanel>-->
+
+
+
+
     </Grid>
 
 </Page>
