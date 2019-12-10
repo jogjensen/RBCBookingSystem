@@ -50,8 +50,55 @@ namespace Datamatiker_1semester.Viewmodel
         /*
          * Properties slut
          */
+         
+          /*
+         * Philipkoder slut - Niqulaykoder start
+         */
 
+   
+     // Her oprettes der en liste med tider til kalenderen,
+        // hvor den henter basic informationer fra RBCBooking.
 
+        private List<RBCBooking> tider;
+        private RBCBooking _selectedTider;
+
+        public List<RBCBooking> Tider
+        {
+            get => tider;
+            set
+            {
+                tider = value;
+                OnPropertyChanged();
+            }
+        }
+
+        public RBCBooking SelectedTider
+        {
+            get => _selectedTider;
+            set
+            {
+                _selectedTider = value;
+                OnPropertyChanged();
+            }
+        }
+        
+        // Indhold der skal vises på skærmen (XAML).
+        public MainVM()
+        {
+            // Her opretes tider
+            tider = new List<RBCBooking>();
+            tider.Add(new RBCBooking("Dummy", "Dummy"));
+
+            _selectedTider = new RBCBooking("10:45", "Dato - 5 / 12 / 2019");
+        }
+   
+   
+    /*
+         * Niqulay koder slut
+         */
+   
+   
+   
 
 
         /*
