@@ -1,10 +1,25 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Roots >
+  <Roots.PropertyPathNames>
+    <RootPropertyPathName Name="SelectedTider" />
+    <RootPropertyPathName Name="Tid" />
+    <RootPropertyPathName Name="Dato" />
+    <RootPropertyPathName Name="GemKundeCommand" />
+    <RootPropertyPathName Name="Kunde" />
+    <RootPropertyPathName Name="Email2" />
+    <RootPropertyPathName Name="Email" />
+    <RootPropertyPathName Name="Postnummer" />
+    <RootPropertyPathName Name="Bynavn" />
+    <RootPropertyPathName Name="Adr" />
+    <RootPropertyPathName Name="Tlfnummer" />
+    <RootPropertyPathName Name="Navn" />
+  </Roots.PropertyPathNames>
   <Roots.RootTypes>
     <RootType FullName="Windows.UI.Xaml.Application" />
     <RootType FullName="Windows.UI.Xaml.Controls.Page">
       <RootProperty Name="Background" />
       <RootProperty Name="Content" />
+      <RootProperty Name="DataContext" />
       <RootProperty Name="Resources" />
     </RootType>
     <RootType FullName="Microsoft.Xaml.DirectUI.ProxyTypes.ThemeResourceExtension">
@@ -42,6 +57,7 @@
       <RootProperty Name="VerticalAlignment" />
       <RootProperty Name="BorderBrush" />
       <RootProperty Name="BorderThickness" />
+      <RootProperty Name="Margin" />
       <RootProperty Name="Spacing" />
       <RootProperty Name="Style" />
     </RootType>
@@ -56,6 +72,7 @@
       <RootProperty Name="Margin" />
       <RootProperty Name="Height" />
       <RootProperty Name="MinWidth" />
+      <RootProperty Name="Command" />
     </RootType>
     <RootType FullName="Microsoft.Xaml.Interactivity.Interaction">
       <RootMethod Name="GetBehaviors" />
@@ -80,6 +97,7 @@
       <RootProperty Name="VerticalAlignment" />
       <RootProperty Name="Inlines" />
       <RootProperty Name="Style" />
+      <RootProperty Name="Width" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.Image">
       <RootProperty Name="Source" />
@@ -94,22 +112,33 @@
     <RootType FullName="Datamatiker_1semester.MainPage" />
     <RootType FullName="Windows.UI.Xaml.Controls.TextBox">
       <RootProperty Name="PlaceholderText" />
+      <RootProperty Name="FontSize" />
+      <RootProperty Name="Width" />
+      <RootProperty Name="HorizontalAlignment" />
+      <RootProperty Name="Text" />
     </RootType>
     <RootType FullName="Datamatiker_1semester.View.Betaling" />
     <RootType FullName="Datamatiker_1semester.View.BetalingsMuligheder" />
+    <RootType FullName="Datamatiker_1semester.Viewmodel.OplysningsVM" />
+    <RootType FullName="Windows.UI.Xaml.Controls.Primitives.ToggleButton">
+      <RootProperty Name="Height" />
+      <RootProperty Name="Background" />
+      <RootProperty Name="Content" />
+      <RootProperty Name="MinWidth" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Data.Binding">
+      <RootProperty Name="Mode" />
+    </RootType>
     <RootType FullName="Datamatiker_1semester.View.Kalender" />
     <RootType FullName="Datamatiker_1semester.View.Oplysninger_og_oversigt" />
     <RootType FullName="Datamatiker_1semester.View.Tak_for_reservation" />
     <RootType FullName="Windows.UI.Xaml.FrameworkElement">
-      <RootProperty Name="Margin" />
-      <RootProperty Name="Height" />
+      <RootProperty Name="VerticalAlignment" />
       <RootProperty Name="Width" />
+      <RootProperty Name="Margin" />
       <RootProperty Name="HorizontalAlignment" />
     </RootType>
-    <RootType FullName="Windows.UI.Xaml.Controls.ListView" />
     <RootType FullName="Windows.UI.Xaml.Controls.Control">
-      <RootProperty Name="BorderBrush" />
-      <RootProperty Name="BorderThickness" />
       <RootProperty Name="FontSize" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.ComboBox">
@@ -120,6 +149,7 @@
       <RootProperty Name="Value" />
     </RootType>
     <RootType FullName="Microsoft.Xaml.DirectUI.ProxyTypes.StaticResourceExtension" />
+    <RootType FullName="Windows.UI.Xaml.Documents.LineBreak" />
     <RootType FullName="Datamatiker_1semester.View.Tilkøb" />
   </Roots.RootTypes>
 </Roots>

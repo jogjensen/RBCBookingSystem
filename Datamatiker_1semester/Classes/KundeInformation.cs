@@ -6,6 +6,9 @@ using System.Threading.Tasks;
 
 namespace Datamatiker_1semester.Classes
 {
+
+    //Philip koder
+
     public class KundeInformation
     {
        
@@ -37,12 +40,6 @@ namespace Datamatiker_1semester.Classes
 
         }
 
-        //public override string Tostring()
-        //{
-        //    return $"{nameof(Navn)}:{Navn}, {nameof(Tlfnummer)}:{Tlfnummer},{nameof(Adr)}:{Adr},{nameof(Bynavn)}:{Bynavn}, {nameof(Postnummer)}:{Postnummer},{nameof(Email)}:{Email},{nameof(Email2)}:{Email2}";
-
-
-        //}
 
         public String Navn
         {
@@ -86,8 +83,8 @@ namespace Datamatiker_1semester.Classes
             set => _email2 = value;
         }
 
-        
-        
+
+        //Philip koder slut
 
     }
 

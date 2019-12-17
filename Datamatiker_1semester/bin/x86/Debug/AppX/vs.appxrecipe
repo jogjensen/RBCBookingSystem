@@ -10,7 +10,7 @@
     <PackageArchitecture>x86</PackageArchitecture>
     <PackageIdentityName>401a55a8-27af-41d8-83aa-8b9cd92e762d</PackageIdentityName>
     <PackageIdentityPublisher>CN=Nikolaj Hansen</PackageIdentityPublisher>
-    <IntermediateOutputPath>C:\Users\Nikolaj Hansen\Desktop\Datamatiker_1semester\Datamatiker_1semester\Datamatiker_1semester\obj\x86\Debug\</IntermediateOutputPath>
+    <IntermediateOutputPath>C:\Users\Nikolaj Hansen\Source\Repos\jogjensen\RBCBookingSystem\Datamatiker_1semester\obj\x86\Debug\</IntermediateOutputPath>
     <RemoteDeploymentType>
     </RemoteDeploymentType>
     <PackageRegistrationPath>
@@ -18,7 +18,7 @@
     <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
-    <LayoutDir>C:\Users\Nikolaj Hansen\Desktop\Datamatiker_1semester\Datamatiker_1semester\Datamatiker_1semester\bin\x86\Debug\AppX</LayoutDir>
+    <LayoutDir>C:\Users\Nikolaj Hansen\Source\Repos\jogjensen\RBCBookingSystem\Datamatiker_1semester\bin\x86\Debug\AppX</LayoutDir>
     <RegisteredManifestChecksum>677EA849ED44EDE6F763A7F68634231116921108B43725F3B33F271B08097EF9</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>401a55a8-27af-41d8-83aa-8b9cd92e762d_1.0.0.0_x86__05d6c3245b11c</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>401a55a8-27af-41d8-83aa-8b9cd92e762d_05d6c3245b11c!App</RegisteredUserModeAppID>
@@ -27,16 +27,16 @@
     <RegisteredVersion>1.0.0.0</RegisteredVersion>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="C:\Users\Nikolaj Hansen\Desktop\Datamatiker_1semester\Datamatiker_1semester\Datamatiker_1semester\bin\x86\Debug\Core\AppxManifest.xml">
+    <AppXManifest Include="C:\Users\Nikolaj Hansen\Source\Repos\jogjensen\RBCBookingSystem\Datamatiker_1semester\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-12-02T09:41:25.091</Modified>
+      <Modified>2019-12-17T09:37:34.455</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\Users\Nikolaj Hansen\Desktop\Datamatiker_1semester\Datamatiker_1semester\Datamatiker_1semester\bin\x86\Debug\Datamatiker_1semester.exe">
+    <AppxPackagedFile Include="C:\Users\Nikolaj Hansen\Source\Repos\jogjensen\RBCBookingSystem\Datamatiker_1semester\bin\x86\Debug\Datamatiker_1semester.exe">
       <PackagePath>entrypoint\Datamatiker_1semester.exe</PackagePath>
-      <Modified>2019-12-02T09:41:24.378</Modified>
+      <Modified>2019-12-17T09:37:33.651</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Nikolaj Hansen\.nuget\packages\microsoft.xaml.behaviors.uwp.managed\2.0.1\lib\uap10.0\Microsoft.Xaml.Interactions.dll">
       <PackagePath>Microsoft.Xaml.Interactions.dll</PackagePath>
@@ -46,6 +46,10 @@
       <PackagePath>Microsoft.Xaml.Interactivity.dll</PackagePath>
       <Modified>2019-04-26T23:06:08.000</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Nikolaj Hansen\.nuget\packages\newtonsoft.json\12.0.3\lib\netstandard2.0\Newtonsoft.Json.dll">
+      <PackagePath>Newtonsoft.Json.dll</PackagePath>
+      <Modified>2019-11-08T23:56:44.000</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.netcore.universalwindowsplatform\6.2.9\runtimes\win10-x86\lib\uap10.0.15138\System.Runtime.dll">
       <PackagePath>System.Runtime.dll</PackagePath>
       <Modified>2019-07-22T22:01:14.000</Modified>
@@ -54,111 +58,111 @@
       <PackagePath>Microsoft.UI.Xaml.Markup.winmd</PackagePath>
       <Modified>2019-03-19T02:36:56.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Nikolaj Hansen\Desktop\Datamatiker_1semester\Datamatiker_1semester\Datamatiker_1semester\Assets\174855.png">
+    <AppxPackagedFile Include="C:\Users\Nikolaj Hansen\Source\Repos\jogjensen\RBCBookingSystem\Datamatiker_1semester\Assets\174855.png">
       <PackagePath>Assets\174855.png</PackagePath>
-      <Modified>2019-11-29T09:21:11.272</Modified>
+      <Modified>2019-12-05T09:36:55.700</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Nikolaj Hansen\Desktop\Datamatiker_1semester\Datamatiker_1semester\Datamatiker_1semester\Assets\BetalingLogo.png">
+    <AppxPackagedFile Include="C:\Users\Nikolaj Hansen\Source\Repos\jogjensen\RBCBookingSystem\Datamatiker_1semester\Assets\BetalingLogo.png">
       <PackagePath>Assets\BetalingLogo.png</PackagePath>
-      <Modified>2019-11-29T10:11:37.664</Modified>
+      <Modified>2019-12-05T09:36:55.702</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Nikolaj Hansen\Desktop\Datamatiker_1semester\Datamatiker_1semester\Datamatiker_1semester\Assets\download.png">
+    <AppxPackagedFile Include="C:\Users\Nikolaj Hansen\Source\Repos\jogjensen\RBCBookingSystem\Datamatiker_1semester\Assets\download.png">
       <PackagePath>Assets\download.png</PackagePath>
-      <Modified>2019-11-29T09:21:11.279</Modified>
+      <Modified>2019-12-05T09:36:55.711</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Nikolaj Hansen\Desktop\Datamatiker_1semester\Datamatiker_1semester\Datamatiker_1semester\Assets\rbc-logo-inverse%403x.png">
+    <AppxPackagedFile Include="C:\Users\Nikolaj Hansen\Source\Repos\jogjensen\RBCBookingSystem\Datamatiker_1semester\Assets\rbc-logo-inverse%403x.png">
       <PackagePath>Assets\rbc-logo-inverse%403x.png</PackagePath>
-      <Modified>2019-11-29T09:22:12.893</Modified>
+      <Modified>2019-12-05T09:36:55.712</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Nikolaj Hansen\Desktop\Datamatiker_1semester\Datamatiker_1semester\Datamatiker_1semester\Assets\snapchat-icon1.png">
+    <AppxPackagedFile Include="C:\Users\Nikolaj Hansen\Source\Repos\jogjensen\RBCBookingSystem\Datamatiker_1semester\Assets\snapchat-icon1.png">
       <PackagePath>Assets\snapchat-icon1.png</PackagePath>
-      <Modified>2019-11-29T09:21:11.264</Modified>
+      <Modified>2019-12-05T09:36:55.714</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Nikolaj Hansen\Desktop\Datamatiker_1semester\Datamatiker_1semester\Datamatiker_1semester\Assets\LockScreenLogo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Nikolaj Hansen\Source\Repos\jogjensen\RBCBookingSystem\Datamatiker_1semester\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
-      <Modified>2019-11-17T15:15:56.266</Modified>
+      <Modified>2019-12-05T09:36:55.703</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Nikolaj Hansen\Desktop\Datamatiker_1semester\Datamatiker_1semester\Datamatiker_1semester\Assets\SplashScreen.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Nikolaj Hansen\Source\Repos\jogjensen\RBCBookingSystem\Datamatiker_1semester\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-11-17T15:15:56.266</Modified>
+      <Modified>2019-12-05T09:36:55.705</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Nikolaj Hansen\Desktop\Datamatiker_1semester\Datamatiker_1semester\Datamatiker_1semester\Assets\Square150x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Nikolaj Hansen\Source\Repos\jogjensen\RBCBookingSystem\Datamatiker_1semester\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-11-17T15:15:56.266</Modified>
+      <Modified>2019-12-05T09:36:55.706</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Nikolaj Hansen\Desktop\Datamatiker_1semester\Datamatiker_1semester\Datamatiker_1semester\Assets\Square44x44Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Nikolaj Hansen\Source\Repos\jogjensen\RBCBookingSystem\Datamatiker_1semester\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-11-17T15:15:56.266</Modified>
+      <Modified>2019-12-05T09:36:55.707</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Nikolaj Hansen\Desktop\Datamatiker_1semester\Datamatiker_1semester\Datamatiker_1semester\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+    <AppxPackagedFile Include="C:\Users\Nikolaj Hansen\Source\Repos\jogjensen\RBCBookingSystem\Datamatiker_1semester\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-11-17T15:15:56.266</Modified>
+      <Modified>2019-12-05T09:36:55.708</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Nikolaj Hansen\Desktop\Datamatiker_1semester\Datamatiker_1semester\Datamatiker_1semester\Assets\StoreLogo.png">
+    <AppxPackagedFile Include="C:\Users\Nikolaj Hansen\Source\Repos\jogjensen\RBCBookingSystem\Datamatiker_1semester\Assets\StoreLogo.png">
       <PackagePath>Assets\StoreLogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-11-17T15:15:56.266</Modified>
+      <Modified>2019-12-05T09:36:55.709</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Nikolaj Hansen\Desktop\Datamatiker_1semester\Datamatiker_1semester\Datamatiker_1semester\Assets\Wide310x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Nikolaj Hansen\Source\Repos\jogjensen\RBCBookingSystem\Datamatiker_1semester\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-11-17T15:15:56.266</Modified>
+      <Modified>2019-12-05T09:36:55.710</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Nikolaj Hansen\Desktop\Datamatiker_1semester\Datamatiker_1semester\Datamatiker_1semester\Properties\Default.rd.xml">
+    <AppxPackagedFile Include="C:\Users\Nikolaj Hansen\Source\Repos\jogjensen\RBCBookingSystem\Datamatiker_1semester\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
-      <Modified>2019-11-29T09:19:56.577</Modified>
+      <Modified>2019-12-05T09:36:55.723</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Nikolaj Hansen\Desktop\Datamatiker_1semester\Datamatiker_1semester\Datamatiker_1semester\bin\x86\Debug\Datamatiker_1semester.xr.xml">
+    <AppxPackagedFile Include="C:\Users\Nikolaj Hansen\Source\Repos\jogjensen\RBCBookingSystem\Datamatiker_1semester\bin\x86\Debug\Datamatiker_1semester.xr.xml">
       <PackagePath>Datamatiker_1semester.xr.xml</PackagePath>
-      <Modified>2019-12-02T09:21:23.221</Modified>
+      <Modified>2019-12-13T09:49:58.713</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Nikolaj Hansen\Desktop\Datamatiker_1semester\Datamatiker_1semester\Datamatiker_1semester\bin\x86\Debug\App.xbf">
+    <AppxPackagedFile Include="C:\Users\Nikolaj Hansen\Source\Repos\jogjensen\RBCBookingSystem\Datamatiker_1semester\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2019-12-02T09:41:24.129</Modified>
+      <Modified>2019-12-17T09:37:33.493</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Nikolaj Hansen\Desktop\Datamatiker_1semester\Datamatiker_1semester\Datamatiker_1semester\bin\x86\Debug\MainPage.xbf">
+    <AppxPackagedFile Include="C:\Users\Nikolaj Hansen\Source\Repos\jogjensen\RBCBookingSystem\Datamatiker_1semester\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2019-12-02T09:41:24.109</Modified>
+      <Modified>2019-12-17T09:37:33.469</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Nikolaj Hansen\Desktop\Datamatiker_1semester\Datamatiker_1semester\Datamatiker_1semester\bin\x86\Debug\View\Betaling.xbf">
+    <AppxPackagedFile Include="C:\Users\Nikolaj Hansen\Source\Repos\jogjensen\RBCBookingSystem\Datamatiker_1semester\bin\x86\Debug\View\Betaling.xbf">
       <PackagePath>View\Betaling.xbf</PackagePath>
-      <Modified>2019-12-02T09:41:24.135</Modified>
+      <Modified>2019-12-17T09:37:33.493</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Nikolaj Hansen\Desktop\Datamatiker_1semester\Datamatiker_1semester\Datamatiker_1semester\bin\x86\Debug\View\BetalingsMuligheder.xbf">
+    <AppxPackagedFile Include="C:\Users\Nikolaj Hansen\Source\Repos\jogjensen\RBCBookingSystem\Datamatiker_1semester\bin\x86\Debug\View\BetalingsMuligheder.xbf">
       <PackagePath>View\BetalingsMuligheder.xbf</PackagePath>
-      <Modified>2019-12-02T09:41:24.136</Modified>
+      <Modified>2019-12-17T09:37:33.493</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Nikolaj Hansen\Desktop\Datamatiker_1semester\Datamatiker_1semester\Datamatiker_1semester\bin\x86\Debug\View\Kalender.xbf">
+    <AppxPackagedFile Include="C:\Users\Nikolaj Hansen\Source\Repos\jogjensen\RBCBookingSystem\Datamatiker_1semester\bin\x86\Debug\View\Kalender.xbf">
       <PackagePath>View\Kalender.xbf</PackagePath>
-      <Modified>2019-12-02T09:41:24.111</Modified>
+      <Modified>2019-12-17T09:37:33.479</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Nikolaj Hansen\Desktop\Datamatiker_1semester\Datamatiker_1semester\Datamatiker_1semester\bin\x86\Debug\View\Oplysninger_og_oversigt.xbf">
+    <AppxPackagedFile Include="C:\Users\Nikolaj Hansen\Source\Repos\jogjensen\RBCBookingSystem\Datamatiker_1semester\bin\x86\Debug\View\Oplysninger_og_oversigt.xbf">
       <PackagePath>View\Oplysninger_og_oversigt.xbf</PackagePath>
-      <Modified>2019-12-02T09:41:24.111</Modified>
+      <Modified>2019-12-17T09:37:33.485</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Nikolaj Hansen\Desktop\Datamatiker_1semester\Datamatiker_1semester\Datamatiker_1semester\bin\x86\Debug\View\Tak_for_reservation.xbf">
+    <AppxPackagedFile Include="C:\Users\Nikolaj Hansen\Source\Repos\jogjensen\RBCBookingSystem\Datamatiker_1semester\bin\x86\Debug\View\Tak_for_reservation.xbf">
       <PackagePath>View\Tak_for_reservation.xbf</PackagePath>
-      <Modified>2019-12-02T09:41:24.137</Modified>
+      <Modified>2019-12-17T09:37:33.493</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Nikolaj Hansen\Desktop\Datamatiker_1semester\Datamatiker_1semester\Datamatiker_1semester\bin\x86\Debug\View\Tilkøb.xbf">
+    <AppxPackagedFile Include="C:\Users\Nikolaj Hansen\Source\Repos\jogjensen\RBCBookingSystem\Datamatiker_1semester\bin\x86\Debug\View\Tilkøb.xbf">
       <PackagePath>View\Tilkøb.xbf</PackagePath>
-      <Modified>2019-12-02T09:41:24.129</Modified>
+      <Modified>2019-12-17T09:37:33.492</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.18362.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
       <Modified>2019-03-19T01:33:42.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Nikolaj Hansen\Desktop\Datamatiker_1semester\Datamatiker_1semester\Datamatiker_1semester\bin\x86\Debug\resources.pri">
+    <AppxPackagedFile Include="C:\Users\Nikolaj Hansen\Source\Repos\jogjensen\RBCBookingSystem\Datamatiker_1semester\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2019-12-02T09:08:14.433</Modified>
+      <Modified>2019-12-13T09:49:59.441</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Nikolaj Hansen\Desktop\Datamatiker_1semester\Datamatiker_1semester\Datamatiker_1semester\bin\x86\Debug\Core\Datamatiker_1semester.exe">
+    <AppxPackagedFile Include="C:\Users\Nikolaj Hansen\Source\Repos\jogjensen\RBCBookingSystem\Datamatiker_1semester\bin\x86\Debug\Core\Datamatiker_1semester.exe">
       <PackagePath>Datamatiker_1semester.exe</PackagePath>
-      <Modified>2019-12-02T09:41:25.080</Modified>
+      <Modified>2019-12-17T09:37:34.439</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

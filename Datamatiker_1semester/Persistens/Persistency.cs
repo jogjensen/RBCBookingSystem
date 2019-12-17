@@ -10,6 +10,9 @@ using Newtonsoft.Json;
 
 namespace Datamatiker_1semester.Persistens
 {
+
+    //Philip koder
+
     public class Persistency
     {
         private const string FileName = "Kundeinformation.txt";
@@ -28,4 +31,4 @@ namespace Datamatiker_1semester.Persistens
         }
         //Fil findes i C:\Users\DINBRUGER\AppData\Local\Packages
     }
-}
+}  //Philip koder slut

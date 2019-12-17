@@ -10,6 +10,8 @@
     mc:Ignorable="d"
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
+<!--Philip koder-->
+
     <Page.DataContext>
         <viewmodel:OplysningsVM></viewmodel:OplysningsVM>
     </Page.DataContext>
@@ -119,4 +121,7 @@
         </Button>
 
     </Grid>
+
+<!--Philip koder slut-->
+
 </Page>

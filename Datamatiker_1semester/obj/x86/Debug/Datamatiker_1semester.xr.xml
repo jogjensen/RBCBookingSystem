@@ -125,7 +125,6 @@
       <RootProperty Name="Background" />
       <RootProperty Name="Content" />
       <RootProperty Name="MinWidth" />
-      <RootEvent Name="Checked" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Data.Binding">
       <RootProperty Name="Mode" />

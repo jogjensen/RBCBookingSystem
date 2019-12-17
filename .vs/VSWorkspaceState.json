@@ -2,7 +2,12 @@
   "ExpandedNodes": [
     "",
     "\\Datamatiker_1semester",
-    "\\Datamatiker_1semester\\Classes"
+    "\\Datamatiker_1semester\\Classes",
+    "\\Datamatiker_1semester\\common",
+    "\\Datamatiker_1semester\\Persistens",
+    "\\Datamatiker_1semester\\Properties",
+    "\\Datamatiker_1semester\\View",
+    "\\Datamatiker_1semester\\Viewmodel"
   ],
   "SelectedNode": "\\Datamatiker_1semester.sln",
   "PreviewInSolutionExplorer": false

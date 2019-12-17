@@ -11,6 +11,13 @@
     mc:Ignorable="d"
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
+    <!--  
+    ============================================
+    Denne side er designet af Nikolaj H
+    ============================================
+    -->
+
+
     <Page.DataContext>
         <Viewmodel:OplysningsVM/>
     </Page.DataContext>
@@ -113,7 +120,7 @@
 
             <!-- Farveskift ( x:Name="ButtonBase" ) skal sammenlignes med knappen nedenunder -->
             <StackPanel Grid.Row="1" Grid.Column="0" HorizontalAlignment="Right" BorderBrush="Black" BorderThickness="1" VerticalAlignment="Center" Grid.ColumnSpan="2" Margin="0,0,101,0" >
-                <ToggleButton x:ConnectionId='2' Height="50" Background="GreenYellow" Content="{Binding SelectedTider.Tid}" MinWidth="100"                                x:Name="ToggleButton"></ToggleButton>
+                <ToggleButton x:ConnectionId='2' Height="50" Background="GreenYellow" Content="{Binding SelectedTider.Tid}" MinWidth="100"  x:Name="ToggleButton"></ToggleButton>
             </StackPanel>
 
             <!-- farskiftes sammenlignes med denne knap ( Button x:Name="Button" ) -->

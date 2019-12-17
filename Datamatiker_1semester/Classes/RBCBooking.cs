@@ -11,6 +11,9 @@ using Windows.ApplicationModel.UserDataTasks;
 namespace Datamatiker_1semester.Classes
 {
     public class RBCBooking
+    //
+    // Klassen er oprettet af Nikolaj H
+    //
     {
         // _dato = "Dato - 5/12/2019";
         // _tid = "10:45";

@@ -7,6 +7,8 @@ using System.Windows.Input;
 
 namespace Datamatiker_1semester.common
 {
+    //Philip koder
+
     public class RelayCommand:ICommand
     {
         private Action _metode;
@@ -28,4 +30,5 @@ namespace Datamatiker_1semester.common
 
         public event EventHandler CanExecuteChanged;
     }
+    //Philip koder slut
 }

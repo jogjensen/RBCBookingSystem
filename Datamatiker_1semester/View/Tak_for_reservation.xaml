@@ -8,17 +8,12 @@
     mc:Ignorable="d"
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
-    <!-- 
-        OPMÆRKSOM, jeg kan ikke få billederne
-        frem, har prøvet koden "../" og "\" foran 
-        billedstien, for at komme fra root og ind
-        i Assets mappen uden held.   
-    
-    Nikolay er en sød...testestesttest TEST
+    <!--  
+    ============================================
+    Denne side er designet af Mikkel O
+    ============================================
     -->
 
-    <!--dette er en test-->
-    
     <Grid>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="*"></ColumnDefinition>
@@ -40,11 +35,11 @@
 
         <StackPanel Grid.ColumnSpan="6" Grid.RowSpan="2" HorizontalAlignment="Center">
             <TextBlock FontSize="60">Roskilde Bowling Center</TextBlock>
-            <Image Source="Assets/rbc-logo-inverse3x.png" Height="105" />
+            <Image Source="../Assets/rbc-logo-inverse@3x.png" Height="105" />
         </StackPanel>
 
         <StackPanel Grid.Row="2" Grid.Column="2" Grid.ColumnSpan="2" HorizontalAlignment="Center">
-            <TextBlock Text="Kære idiot, tak for din reservation af 1 bowlingbane den (indsæt dato), vi glæder os til at se dig/jer." FontSize="20" TextWrapping="Wrap" />
+            <TextBlock Text="Kære kunde, tak for din reservation af 1 bowlingbane den 5/12/2019 klokken 10:45, vi glæder os til at se dig/jer." FontSize="20" TextWrapping="Wrap" />
         </StackPanel>
     </Grid>
 </Page>

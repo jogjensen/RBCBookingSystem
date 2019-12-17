@@ -11,6 +11,13 @@
     mc:Ignorable="d"
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
+    <!--  
+    ============================================
+    Denne side er designet af Nikolaj H
+    ============================================
+    -->
+
+
     <Page.DataContext>
         <Viewmodel:OplysningsVM/>
     </Page.DataContext>
@@ -39,7 +46,7 @@
         <!-- Overskrift + Logo -->
         <StackPanel Grid.ColumnSpan="6" Grid.RowSpan="2" HorizontalAlignment="Center">
             <TextBlock FontSize="60">Roskilde Bowling Center</TextBlock>
-            <Image Source="Assets/rbc-logo-inverse@3x.png" Height="130"></Image>
+            <Image Source="../Assets/rbc-logo-inverse@3x.png" Height="130"></Image>
         </StackPanel>
 
         <!-- Menu -->
@@ -59,9 +66,9 @@
             <Button Background="White" FontSize="20" Content="Kontakt"></Button>
             <TextBlock FontSize="20" Text="|" VerticalAlignment="Center"></TextBlock>
 
-            <Image Source="Assets/174855.png" Height="20" VerticalAlignment="Center" Margin="5,15"></Image>
-            <Image Source="Assets/download.png" Height="20" VerticalAlignment="Center" Margin="5,15"></Image>
-            <Image Source="Assets/snapchat-icon1.png" Height="20" VerticalAlignment="Center" Margin="5,15"></Image>
+            <Image Source="../Assets/174855.png" Height="20" VerticalAlignment="Center" Margin="5,15"></Image>
+            <Image Source="../Assets/download.png" Height="20" VerticalAlignment="Center" Margin="5,15"></Image>
+            <Image Source="../Assets/snapchat-icon1.png" Height="20" VerticalAlignment="Center" Margin="5,15"></Image>
         </StackPanel>
 
         <!-- Sidens indhold -->
@@ -113,7 +120,7 @@
 
             <!-- Farveskift ( x:Name="ButtonBase" ) skal sammenlignes med knappen nedenunder -->
             <StackPanel Grid.Row="1" Grid.Column="0" HorizontalAlignment="Right" BorderBrush="Black" BorderThickness="1" VerticalAlignment="Center" Grid.ColumnSpan="2" Margin="0,0,101,0" >
-                <ToggleButton Height="50" Background="GreenYellow" Content="{Binding SelectedTider.Tid}" MinWidth="100" Checked="ToggleButton_Checked" x:Name="ToggleButton"></ToggleButton>
+                <ToggleButton Height="50" Background="GreenYellow" Content="{Binding SelectedTider.Tid}" MinWidth="100"  x:Name="ToggleButton"></ToggleButton>
             </StackPanel>
 
             <!-- farskiftes sammenlignes med denne knap ( Button x:Name="Button" ) -->

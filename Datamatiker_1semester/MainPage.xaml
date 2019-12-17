@@ -9,8 +9,13 @@
     mc:Ignorable="d"
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
-    <Grid>
+    <!--  
+    ============================================
+    Denne side er designet af Nikolaj H
+    ============================================
+    -->
 
+    <Grid>
         <!-- Grid system til alt indhold -->
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="*"/>

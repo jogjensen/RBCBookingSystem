@@ -9,12 +9,10 @@
     mc:Ignorable="d"
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
-
-    <!-- 
-        OPMÆRKSOM, jeg kan ikke få billederne
-        frem, har prøvet koden "../" og "\" foran 
-        billedstien, for at komme fra root og ind
-        i Assets mappen uden held.   
+    <!--  
+    ============================================
+    Denne side er designet af Mikkel O
+    ============================================
     -->
 
     <Grid>

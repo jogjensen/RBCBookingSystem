@@ -12,6 +12,8 @@ using Datamatiker_1semester.Persistens;
 using Newtonsoft.Json;
 
 namespace Datamatiker_1semester.Viewmodel
+
+//Philip koder
 {
     public class OplysningsVM:INotifyPropertyChanged
     {
@@ -26,9 +28,10 @@ namespace Datamatiker_1semester.Viewmodel
             _gemKundeCommand = new RelayCommand(Gem);
             _kunde = new KundeInformation();
 
+            // Tider og lister lavet af Nikolaj H
             // Her opretes tider
             tider = new List<RBCBooking>();
-            tider.Add(new RBCBooking("Dummy", "Dummy"));
+            tider.Add(new RBCBooking("kage", "kage"));
 
             _selectedTider = new RBCBooking("10:45", "Dato - 5 / 12 / 2019");
         }
@@ -61,9 +64,9 @@ namespace Datamatiker_1semester.Viewmodel
          * Philipkoder slut - Niqulaykoder start
          */
 
-   
+     // Lavet af Nikolaj H
      // Her oprettes der en liste med tider til kalenderen,
-        // hvor den henter basic informationer fra RBCBooking.
+     // hvor den henter basic informationer fra RBCBooking.
 
         private List<RBCBooking> tider;
         private RBCBooking _selectedTider;
@@ -87,6 +90,7 @@ namespace Datamatiker_1semester.Viewmodel
                 OnPropertyChanged();
             }
         }
+        // Nikolaj H Slut
         
         // Indhold der skal vises på skærmen (XAML).
         //public OplysningsVM()
@@ -104,7 +108,7 @@ namespace Datamatiker_1semester.Viewmodel
          */
    
    
-   
+   //Philip og Niqulay koder
 
 
         /*
@@ -117,5 +121,7 @@ namespace Datamatiker_1semester.Viewmodel
         {
             PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
         }
+
+        //Philip og Niqulay koder slut
     }
 }
