@@ -44,11 +44,12 @@
         </Grid.RowDefinitions>
 
         <!-- Overskrift + Logo -->
+        <!--Marcus Koder-->
         <StackPanel Grid.ColumnSpan="6" Grid.RowSpan="2" HorizontalAlignment="Center">
             <TextBlock FontSize="60">Roskilde Bowling Center</TextBlock>
-            <Image Source="../Assets/rbc-logo-inverse@3x.png" Height="130"></Image>
+            <Image Source="../Assets/rbc-logo-inverse@3x.png" Height="115"></Image>
         </StackPanel>
-
+        <!--Marcus Koder slut-->
         <!-- Menu -->
         <StackPanel Grid.Row="2" Grid.ColumnSpan="6" Orientation="Horizontal" HorizontalAlignment="center">
             <Button Background="White" FontSize="20" Content="Priser og åbningstider"></Button>
@@ -120,7 +121,9 @@
 
             <!-- Farveskift ( x:Name="ButtonBase" ) skal sammenlignes med knappen nedenunder -->
             <StackPanel Grid.Row="1" Grid.Column="0" HorizontalAlignment="Right" BorderBrush="Black" BorderThickness="1" VerticalAlignment="Center" Grid.ColumnSpan="2" Margin="0,0,101,0" >
+                <!--Marcus Koder-->
                 <ToggleButton Height="50" Background="GreenYellow" Content="{Binding SelectedTider.Tid}" MinWidth="100"  x:Name="ToggleButton"></ToggleButton>
+                <!--Marcus Koder slut-->
             </StackPanel>
 
             <!-- farskiftes sammenlignes med denne knap ( Button x:Name="Button" ) -->

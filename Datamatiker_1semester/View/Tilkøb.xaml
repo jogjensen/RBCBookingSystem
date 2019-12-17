@@ -9,6 +9,12 @@
     mc:Ignorable="d"
     >
 
+    <!--  
+    ============================================
+    Denne side er designet af Marcus L
+    ============================================
+    -->
+
     <Page.Resources>
         <Style x:Key="Style" TargetType="RowDefinition">
             <Setter Property="Height" Value="*"/>
